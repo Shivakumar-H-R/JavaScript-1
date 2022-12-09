@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>ReadInput</title>
+  <style>
+    h1{
+       color: red; 
+    }
+  </style>
+  <script>
+    function ageValidation()
+    {
+      if(document.getElementById("t").value >= 18)
+      {
+        document.write("eligible");
+      }
+      else{
+        document.write("not eligible");
+      }
+    }
+  </script>
+</head>
+<body>
+  <h1>enter num value:<input type="text" id="t"></h1>
+  <button type="button" onclick="ageValidation()">submit</button>
+</body>
+</html>
